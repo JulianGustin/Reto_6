@@ -257,14 +257,13 @@ Pip es una herramienta fundamental para manejar paquetes de software en Python. 
 Primero que todo, para instalar modulos pip, debes abrir la terminal o simbolo del sistema de tu computador e ingresar el comando "pip install" seguido del módulo que desees instalar.  
 Ej: numpy: pip install numpy
 Ahora, este es un listado de modulos populares de pip
-1.numpy
-2.pandas
-3.matplotlib
-4.scikit-learn
-5.tensorflow
-6.keras
-7.requests
-8.beautifulsoup4
-9.flask
-10.django
-11.pygame
+1. numpy
+2. pandas
+3. matplotlib
+4. scikit-learn
+5. keras
+6. tensorflow
+7. beautifulsoup4
+8. flask
+9. django
+10. pygame
