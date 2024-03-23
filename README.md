@@ -245,3 +245,26 @@ def raiz(n1:float, n2:float, n3:float, n4:float, n5:float) ->float:
     raiz = n1**(1/3)
     return raiz
 ```
+***
+
+## Que es pip
+
+Pip es una herramienta fundamental para manejar paquetes de software en Python. Se emplea para instalar y gestionar una variedad de módulos que pueden ser incorporados en tus programas. Estos módulos ofrecen una amplia gama de funcionalidades, como cálculos matemáticos, acceso a bases de datos, análisis de datos, etc. 
+
+***
+## Modulos
+
+Primero que todo, para instalar modulos pip, debes abrir la terminal o simbolo del sistema de tu computador e ingresar el comando "pip install" seguido del módulo que desees instalar.  
+Ej: numpy: pip install numpy
+Ahora, este es un listado de modulos populares de pip
+1.numpy
+2.pandas
+3.matplotlib
+4.scikit-learn
+5.tensorflow
+6.keras
+7.requests
+8.beautifulsoup4
+9.flask
+10.django
+11.pygame
