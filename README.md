@@ -75,19 +75,21 @@ if __name__ == "__main__":
 ***
 ## Carne
 ```python
-def valor_prestamo(C:float, i:float, n:float) ->float: 
-    valor = C * (1 + i)**n
-    return valor
+def peso_aves(n:float, m:float, k:float ) -> float: 
+    pesoN = n*6
+    pesoM = m*7 
+    pesoK = k*1
+    pesoTotal = pesoN + pesoM + pesoK 
+    return pesoTotal 
 
 if __name__ == "__main__":
-    
-    C = float(input("Ingrese el monto del prestamo: "))
-    i = float(input("Ingrese la tasa de interes anual (decimal) "))
-    n = int(input("Ingrese el numero de meses: "))
+    n = float(input("Ingrese el número de gallinas: "))
+    m = float(input("Ingrese el número de gallos: "))
+    k = float(input("Ingrese el número de pollitos: "))
 
-    valor_final = valor_prestamo(C,i,n)
+    cantidadCarne = peso_aves(n,m,k)
+    print("La cantidad de carne en kilos es:", cantidadCarne)
 
-    print("El valor de su prestamo después de ", n, "meses será de ", valor_final)
 ```
 ***
 ## Compras 
